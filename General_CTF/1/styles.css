@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: lightgreen;
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px;
+}
+
+h1 {
+  color: lightgreen;
+  text-align: center;
+}
+
+a {
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}

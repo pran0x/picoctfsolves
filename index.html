@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Categories</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+      
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { padding: 10px; border: 1px solid #15ff00; margin: 5px 0; cursor: pointer; background-color: #000000; }
+        li:hover { background-color: #61aa7d; }
+    </style>
+</head>
+  <!-- Headline adjust -->  
+<body>
+  <div style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+    <h2>CTF Categories</h2>
+</div>
+<!-- list of content -->
+<ul>
+<div style="display:flow-root; justify-content: center; align-items: center; height: 80vh; flex-direction: column;">
+    <li onclick="openReadme()">Web Exploitation</li>
+    <li onclick="openReadme()">Cryptography</li>
+    <li onclick="openReadme()">Reverse Engineering</li>
+    <li onclick="openReadme()">Forensics</li>
+    <li onclick="openReadmeGeneral()">General Skills</li>
+    <li onclick="openReadme()">Binary Exploitation</li>
+  </div>
+</ul>
+
+<!-- JavaScript to handle the click events -->
+<script src="index.js"></script>
+</body>
+</html>
